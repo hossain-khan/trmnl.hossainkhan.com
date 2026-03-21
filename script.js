@@ -123,7 +123,7 @@
     var forks = (plugin.stats && plugin.stats.forks) || 0;
 
     var tagsHtml = categories.map(function (c) {
-      return '<span class="tag">' + c.charAt(0).toUpperCase() + c.slice(1) + '</span>';
+      return '<button type="button" class="tag" data-category="' + c + '">' + c.charAt(0).toUpperCase() + c.slice(1) + '</button>';
     }).join('');
 
     var actionsHtml =
@@ -172,6 +172,13 @@
       card.style.animationDelay = (i * 60) + 'ms';
       pluginGrid.appendChild(card);
     });
+
+    // Delegate tag clicks to filter
+    pluginGrid.addEventListener('click', function (e) {
+      var tag = e.target.closest('.tag[data-category]');
+      if (tag) setActiveFilter(tag.getAttribute('data-category'));
+    });
+
     observeCards();
   }
 
@@ -199,6 +206,11 @@
     });
 
     gridEmpty.hidden = visibleCount > 0;
+
+    // Highlight matching tags in cards
+    pluginGrid.querySelectorAll('.tag').forEach(function (tag) {
+      tag.classList.toggle('is-active', tag.getAttribute('data-category') === category);
+    });
   }
 
   // ---- Intersection Observer for entrance animations ----
