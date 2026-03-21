@@ -1,0 +1,34 @@
+# Copilot Instructions — trmnl.hossainkhan.com
+
+## Project Overview
+
+Static portfolio website showcasing TRMNL e-ink display plugins built by Hossain Khan. Pure HTML/CSS/JS — no frameworks, no build tools. Data loaded from `data/recipes.json`. Hosted on GitHub Pages at `trmnl.hossainkhan.com`.
+
+## Design Context
+
+### Users
+- **Primary**: TRMNL device owners browsing for plugins to install or fork
+- **Secondary**: Developers exploring open-source plugin examples and implementation patterns
+- **Tertiary**: General visitors (potential employers, clients, peers) assessing the author's work
+- **Context**: Casual browsing — visitors arrive via direct link, GitHub, or TRMNL community. They want to quickly understand what plugins exist, see previews, and jump to install/source.
+
+### Brand Personality
+- **3 words**: Professional, crafted, inventive
+- **Voice**: Confident but understated. Let the work speak. No hype, no fluff.
+- **Emotional goals**: "This person builds quality stuff" + "they clearly enjoy what they make"
+
+### Aesthetic Direction
+- **Tone**: Clean technical — the intersection of polished professional and hacker/tinkerer. Think well-organized workshop, not sterile showroom.
+- **Theme**: Light and dark mode (system-preferred with toggle)
+- **Color palette**: Rooted in TRMNL's e-ink monochrome heritage. Predominantly neutral with warm near-blacks and off-whites. One deliberate accent color for interactive elements and emphasis — something subtle, not neon.
+- **Typography**: A refined sans-serif for body with a slightly distinctive display/heading font. Technical but not cold. Avoid monospace-as-personality.
+- **Imagery**: E-ink screenshots are the visual heroes — let them anchor each card. Plugin icons provide color variety naturally.
+- **Anti-references**: Not a generic Bootstrap portfolio. Not a SaaS marketing page. Not dark-mode-with-neon-glow AI aesthetic. Not card soup with identical layouts.
+
+### Design Principles
+
+1. **Content-first** — The plugins are the product. Every design choice should elevate the screenshots, descriptions, and stats — not compete with them.
+2. **Earned complexity** — Start minimal. Add detail only where it serves comprehension or delight. If a flourish doesn't help the visitor, remove it.
+3. **Dual character** — Professional enough for a portfolio link on a resume, interesting enough that a developer pauses to explore. The design should reward both a 5-second glance and a 5-minute browse.
+4. **Ink-inspired restraint** — Honor the e-ink medium these plugins target. Embrace whitespace, sharp contrast, and deliberate typography over gradients and color saturation.
+5. **Accessible by default** — WCAG AA minimum. Both themes must be fully legible. Respect reduced-motion preferences. Touch targets sized for mobile.
