@@ -1,5 +1,7 @@
 {
-    "X-DATA-SOURCE": "https://trmnl-badges.gohk.xyz/api/recipes?user_id=29",
+    "X-DATA-SOURCE-PROXY": "https://trmnl-badges.gohk.xyz/api/recipes?user_id=29",
+    "X-DATA-SOURCE-LIVE": "https://trmnl.com/recipes.json?user_id=29",
+    "X-API-DOCS": "https://docs.trmnl.com/go/public-api/recipes-api",
     "data": [
         {
             "id": 261373,
