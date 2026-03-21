@@ -238,6 +238,12 @@
     });
   }
 
+  // ---- Service Worker (image cache) ----
+
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+
   // ---- Init ----
 
   fetch(DATA_URL)
