@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://trmnl.hossainkhan.com/sitemap.xml
