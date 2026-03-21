@@ -1,5 +1,71 @@
 {
+    "X-DATA-SOURCE": "https://trmnl-badges.gohk.xyz/api/recipes?user_id=29",
     "data": [
+        {
+            "id": 261373,
+            "user_id": 29,
+            "name": "Calendar XL",
+            "published_at": "2026-03-21T10:14:33.762Z",
+            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/dktcld5l3l9w6coyt0og5vgpd7se",
+            "icon_content_type": "image/png",
+            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/r37wfnwuhar1ktlj3eh7w9uzw4fv",
+            "author_bio": {
+                "keyname": "author_info",
+                "field_type": "author_bio",
+                "name": "About Calendar XL",
+                "category": "calendar,productivity",
+                "github_url": "https://github.com/hossain-khan/trmnl-calendar-xl",
+                "email_address": "trmnl@hossain.dev",
+                "description": "Same calendar you know, now in XL - big enough to read from your desk, the couch, or across the room. See what's happening NOW, what's up NEXT, and a peek at what's LATER. No squinting required. <br><br> ℹ️ Requires a native Google Calendar plugin connected and added in playlist for fresh data."
+            },
+            "custom_fields": [
+                {
+                    "keyname": "author_info",
+                    "field_type": "author_bio",
+                    "name": "About Calendar XL",
+                    "category": "calendar,productivity",
+                    "github_url": "https://github.com/hossain-khan/trmnl-calendar-xl",
+                    "email_address": "trmnl@hossain.dev",
+                    "description": "Same calendar you know, now in XL - big enough to read from your desk, the couch, or across the room. See what's happening NOW, what's up NEXT, and a peek at what's LATER. No squinting required. <br><br> ℹ️ Requires a native Google Calendar plugin connected and added in playlist for fresh data."
+                },
+                {
+                    "keyname": "calendar_source",
+                    "field_type": "plugin_instance_select",
+                    "name": "Calendar Source",
+                    "plugin_keyname": "google_calendar",
+                    "description": "Choose the Google Calendar that provides your primary calendar events.",
+                    "help_text": "Add a <b>Google Calendar</b> plugin to a playlist first (you can hide it to save a screen slot). It will then appear here."
+                },
+                {
+                    "keyname": "capitalize_text",
+                    "field_type": "boolean",
+                    "name": "Capitalize Event Text",
+                    "description": "Display event names in ALL CAPS",
+                    "optional": true,
+                    "default": false
+                },
+                {
+                    "keyname": "show_all_day_events",
+                    "field_type": "boolean",
+                    "name": "Show All-Day Events",
+                    "description": "When enabled, displays active all-day events (trips, holidays, birthdays)\nin a dedicated section. When disabled, shows more future timed events\nfrom your calendar.\n",
+                    "optional": true,
+                    "default": false
+                },
+                {
+                    "keyname": "demo_mode",
+                    "field_type": "boolean",
+                    "name": "Demo Mode",
+                    "description": "Shows sample events instead of your real calendar. <b>ON</b> by default.<br>⏻ Turn <b>OFF</b> once your calendar is connected.",
+                    "optional": true,
+                    "default": true
+                }
+            ],
+            "stats": {
+                "installs": 6,
+                "forks": 5
+            }
+        },
         {
             "id": 246906,
             "user_id": 29,
@@ -7,7 +73,7 @@
             "published_at": "2026-02-19T14:05:29.027Z",
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/jlaow5v15p3r4qxau8iokm8iuay0",
             "icon_content_type": "image/png",
-            "screenshot_url": "https://trmnl.s3.us-east-2.amazonaws.com/qlpi9bfaawx60jzzbd7ud1jm6444?response-content-disposition=inline%3B%20filename%3D%22plugin-4cab3d%22%3B%20filename%2A%3DUTF-8%27%27plugin-4cab3d&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA47CRUQUU4VKBBMOF%2F20260321%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260321T001342Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=9c88ee83465962ed40369a3c6fa628180662010252228d74670faed063e1a1d8",
+            "screenshot_url": "https://trmnl.s3.us-east-2.amazonaws.com/qlpi9bfaawx60jzzbd7ud1jm6444?response-content-disposition=inline%3B%20filename%3D%22plugin-4cab3d%22%3B%20filename%2A%3DUTF-8%27%27plugin-4cab3d&response-content-type=image%2Fpng&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA47CRUQUU4VKBBMOF%2F20260321%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260321T123523Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&X-Amz-Signature=bdbef63074d0069b9bcaa1fd93b5f0a21e488a069385120d34748869c6259884",
             "author_bio": {
                 "keyname": "author_bio",
                 "field_type": "author_bio",
@@ -538,9 +604,9 @@
             }
         }
     ],
-    "total": 8,
+    "total": 9,
     "from": 1,
-    "to": 8,
+    "to": 9,
     "per_page": 25,
     "current_page": 1,
     "prev_page_url": null,
