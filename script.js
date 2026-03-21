@@ -173,14 +173,14 @@
       pluginGrid.appendChild(card);
     });
 
-    // Delegate tag clicks to filter
-    pluginGrid.addEventListener('click', function (e) {
-      var tag = e.target.closest('.tag[data-category]');
-      if (tag) setActiveFilter(tag.getAttribute('data-category'));
-    });
-
     observeCards();
   }
+
+  // Delegate tag clicks to filter (bound once, not per render)
+  pluginGrid.addEventListener('click', function (e) {
+    var tag = e.target.closest('.tag[data-category]');
+    if (tag) setActiveFilter(tag.getAttribute('data-category'));
+  });
 
   // ---- Filtering ----
 
