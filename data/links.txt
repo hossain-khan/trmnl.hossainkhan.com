@@ -1,1 +1,5 @@
 https://help.trmnl.com/en/articles/10122094-plugin-recipes
+
+- SOURCE-PROXY: `https://trmnl-badges.gohk.xyz/api/recipes?user_id=29`
+- SOURCE-LIVE: `https://trmnl.com/recipes.json?user_id=29`
+- API-DOCS: `https://docs.trmnl.com/go/public-api/recipes-api`
