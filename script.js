@@ -32,8 +32,13 @@
 
   themeToggle.addEventListener('click', function () {
     const current = document.documentElement.getAttribute('data-theme');
-    applyTheme(current === 'dark' ? 'light' : 'dark');
+    applyTheme(current === 'dark' ? 'light' : 'dark');    themeToggle.classList.remove('is-spinning');
+    void themeToggle.offsetWidth; // restart animation
+    themeToggle.classList.add('is-spinning');
   });
+
+  themeToggle.addEventListener('animationend', function () {
+    themeToggle.classList.remove('is-spinning');  });
 
   // Listen for system changes
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function (e) {
@@ -94,9 +99,36 @@
     });
 
     heroStats.innerHTML =
-      '<div class="stat"><span class="stat__number">' + plugins.length + '</span><span class="stat__label">plugins</span></div>' +
-      '<div class="stat"><span class="stat__number">' + totalInstalls + '</span><span class="stat__label">installs</span></div>' +
-      '<div class="stat"><span class="stat__number">' + totalForks + '</span><span class="stat__label">forks</span></div>';
+      '<div class="stat"><span class="stat__number" data-target="' + plugins.length + '">0</span><span class="stat__label">plugins</span></div>' +
+      '<div class="stat"><span class="stat__number" data-target="' + totalInstalls + '">0</span><span class="stat__label">installs</span></div>' +
+      '<div class="stat"><span class="stat__number" data-target="' + totalForks + '">0</span><span class="stat__label">forks</span></div>';
+
+    // Animate counters after hero entrance (skip if reduced motion)
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      heroStats.querySelectorAll('.stat__number[data-target]').forEach(function (el) {
+        el.textContent = el.getAttribute('data-target');
+      });
+    } else {
+      setTimeout(animateStatCounters, 320);
+    }
+  }
+
+  function animateStatCounters() {
+    heroStats.querySelectorAll('.stat__number[data-target]').forEach(function (el) {
+      var target = parseInt(el.getAttribute('data-target'), 10);
+      var duration = 700;
+      var startTime = null;
+
+      function step(timestamp) {
+        if (!startTime) startTime = timestamp;
+        var progress = Math.min((timestamp - startTime) / duration, 1);
+        var eased = 1 - Math.pow(1 - progress, 4);
+        el.textContent = Math.round(eased * target);
+        if (progress < 1) requestAnimationFrame(step);
+      }
+
+      requestAnimationFrame(step);
+    });
   }
 
   function renderFilters(categories) {
@@ -243,6 +275,16 @@
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js');
   }
+
+  // ---- Console easter egg ----
+  console.log(
+    '%c\u2B1B TRMNL Plugins',
+    'font-size: 14px; font-weight: bold; color: #F8654B;'
+  );
+  console.log(
+    '%cPure HTML, CSS & JS \u2014 no frameworks.\nhttps://github.com/hossain-khan/trmnl.hossainkhan.com',
+    'font-size: 11px; color: #888;'
+  );
 
   // ---- Init ----
 

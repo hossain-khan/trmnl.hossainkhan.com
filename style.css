@@ -366,6 +366,11 @@ img {
     box-shadow: var(--shadow-card-hover);
     border-color: var(--border-emphasis);
   }
+
+  .plugin-card:active {
+    transform: translateY(0);
+    transition-duration: 80ms;
+  }
 }
 
 /* Screenshot */
@@ -519,6 +524,19 @@ img {
   color: var(--accent);
 }
 
+.card-link--primary::after {
+  content: ' \2192';
+  display: inline-block;
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: opacity var(--duration-fast), transform var(--duration-fast);
+}
+
+.card-link--primary:hover::after {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 .card-link--secondary {
   color: var(--text-tertiary);
 }
@@ -571,6 +589,41 @@ img {
   color: var(--border-emphasis);
 }
 
+/* ---------- Hero staggered entrance ---------- */
+.hero__eyebrow,
+.hero__title,
+.hero__subtitle,
+.hero__stats {
+  opacity: 0;
+  animation: hero-enter 600ms var(--ease-out-expo) forwards;
+}
+
+.hero__eyebrow  { animation-delay: 0ms; }
+.hero__title    { animation-delay: 80ms; }
+.hero__subtitle { animation-delay: 160ms; }
+.hero__stats    { animation-delay: 280ms; }
+
+@keyframes hero-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ---------- Theme toggle spin ---------- */
+.theme-toggle.is-spinning {
+  animation: toggle-spin 350ms var(--ease-out-expo);
+}
+
+@keyframes toggle-spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(180deg); }
+}
+
 /* ---------- Entrance animation ---------- */
 .plugin-card {
   opacity: 0;
@@ -598,11 +651,27 @@ img {
     animation: none;
   }
 
+  .hero__eyebrow,
+  .hero__title,
+  .hero__subtitle,
+  .hero__stats {
+    opacity: 1;
+    animation: none;
+  }
+
   .theme-toggle:hover {
     transform: none;
   }
 
+  .theme-toggle.is-spinning {
+    animation: none;
+  }
+
   .plugin-card__screenshot img {
+    transition: none;
+  }
+
+  .card-link--primary::after {
     transition: none;
   }
 }
