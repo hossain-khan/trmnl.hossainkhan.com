@@ -26,6 +26,7 @@
   function applyTheme(theme) {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
+    themeToggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
   }
 
   applyTheme(getPreferredTheme());
@@ -189,8 +190,8 @@
         '<p class="plugin-card__desc">' + desc + '</p>' +
         '<div class="plugin-card__tags">' + tagsHtml + '</div>' +
         '<div class="plugin-card__meta">' +
-          '<span class="plugin-card__stat">' + ICONS.download + ' ' + installs + '</span>' +
-          '<span class="plugin-card__stat">' + ICONS.fork + ' ' + forks + '</span>' +
+          '<span class="plugin-card__stat" title="Installs">' + ICONS.download + ' <span class="sr-only">Installs: </span>' + installs + '</span>' +
+          '<span class="plugin-card__stat" title="Forks">' + ICONS.fork + ' <span class="sr-only">Forks: </span>' + forks + '</span>' +
           '<span class="plugin-card__date">' + formatDate(plugin.published_at) + '</span>' +
         '</div>' +
       '</div>' +
@@ -214,6 +215,11 @@
   pluginGrid.addEventListener('click', function (e) {
     var tag = e.target.closest('.tag[data-category]');
     if (tag) setActiveFilter(tag.getAttribute('data-category'));
+  });
+
+  // Empty state reset button
+  document.getElementById('gridEmptyReset').addEventListener('click', function () {
+    setActiveFilter('all');
   });
 
   // ---- Filtering ----
@@ -309,7 +315,7 @@
     })
     .catch(function (err) {
       console.error('Error loading plugins:', err);
-      pluginGrid.innerHTML = '<p class="grid-empty">Unable to load plugins. Please try again later.</p>';
+      pluginGrid.innerHTML = '<p class="grid-empty">Unable to load plugins. Try refreshing the page, or visit <a href="https://github.com/hossain-khan" target="_blank" rel="noopener noreferrer">GitHub</a> to browse the source directly.</p>';
     });
 
 })();
