@@ -149,7 +149,9 @@
 
   function renderCard(plugin) {
     var bio = plugin.author_bio || {};
-    var desc = stripHtml(bio.description || '').substring(0, 160);
+    // Even though css limits the description to 3 lines, we should also truncate 
+    // the text here to avoid excessively long descriptions breaking the layout 
+    var desc = stripHtml(bio.description || '').substring(0, 200);
     var categories = (bio.category || '').split(',').map(function (c) { return c.trim(); }).filter(Boolean);
     var installs = (plugin.stats && plugin.stats.installs) || 0;
     var forks = (plugin.stats && plugin.stats.forks) || 0;
