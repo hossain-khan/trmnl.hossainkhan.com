@@ -18,11 +18,11 @@
                 "category": "calendar,productivity",
                 "github_url": "https://github.com/hossain-khan/trmnl-calendar-xl",
                 "email_address": "trmnl@hossain.dev",
-                "description": "Same calendar you know, now in XL - big enough to read from your desk, the couch, or across the room. See what's happening NOW, what's up NEXT, and a peek at what's LATER. No squinting required. <br><br> ℹ️ Requires a native Google Calendar plugin connected and added in playlist for fresh data."
+                "description": "Same calendar you know, now in XL - big enough to read from your desk, the couch, or across the room. See what's happening NOW, what's up NEXT, and a peek at what's LATER. No squinting required. <br><br> \u2139\ufe0f Requires a native Google Calendar plugin connected and added in playlist for fresh data."
             },
             "stats": {
-                "installs": 6,
-                "forks": 5
+                "installs": 0,
+                "forks": 55
             }
         },
         {
@@ -37,14 +37,14 @@
                 "keyname": "author_bio",
                 "field_type": "author_bio",
                 "name": "About This Plugin",
-                "description": "Display accurate 🕌 Islamic salah prayer times for your location with Hijri calendar, 12/24-hour format options, and responsive layouts for all TRMNL devices.",
+                "description": "Display accurate \ud83d\udd4c Islamic salah prayer times for your location with Hijri calendar, 12/24-hour format options, and responsive layouts for all TRMNL devices.",
                 "category": "life,personal",
                 "email_address": "trmnl@hossain.dev",
                 "github_url": "https://github.com/hossain-khan/trmnl-prayer-times"
             },
             "stats": {
                 "installs": 5,
-                "forks": 15
+                "forks": 23
             }
         },
         {
@@ -67,7 +67,7 @@
             },
             "stats": {
                 "installs": 0,
-                "forks": 11
+                "forks": 15
             }
         },
         {
@@ -83,14 +83,14 @@
                 "field_type": "author_bio",
                 "name": "Kung Fu Panda Quotes",
                 "category": "entertainment,humor",
-                "description": "Kung Fu Panda Quotes brings the wisdom, humor, and philosophy from all four Kung Fu Panda films directly to your TRMNL device.\n<br><br>\n<strong>Features:</strong><br>\n🐼 80+ authentic quotes from all 4 Kung Fu Panda movies<br>\n🎭 8 themed collections: Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, Villainy<br>\n🎨 Beautiful movie poster displays optimized for e-ink<br>\n🔄 Daily automatic quote updates with intelligent rotation<br>\n<br><br>\n<strong>Setup:</strong><br>\n1. Install or Fork this recipe<br>\n2. Choose your preferred quote theme (or \"All Themes\" for variety)<br>\n3. The plugin automatically polls for a new quote every 24 hours<br>\n4. Add to your playlist and experience daily wisdom from the Valley of Peace\n<br><br>\nExperience the timeless wisdom of Master Oogway, the humor of Po, the discipline of Master Shifu, and memorable quotes from all your favorite characters across the entire franchise.\n<br><br>\n<em>\"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.\"</em> - Master Oogway\n",
+                "description": "Kung Fu Panda Quotes brings the wisdom, humor, and philosophy from all four Kung Fu Panda films directly to your TRMNL device.\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\udc3c 80+ authentic quotes from all 4 Kung Fu Panda movies<br>\n\ud83c\udfad 8 themed collections: Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, Villainy<br>\n\ud83c\udfa8 Beautiful movie poster displays optimized for e-ink<br>\n\ud83d\udd04 Daily automatic quote updates with intelligent rotation<br>\n<br><br>\n<strong>Setup:</strong><br>\n1. Install or Fork this recipe<br>\n2. Choose your preferred quote theme (or \"All Themes\" for variety)<br>\n3. The plugin automatically polls for a new quote every 24 hours<br>\n4. Add to your playlist and experience daily wisdom from the Valley of Peace\n<br><br>\nExperience the timeless wisdom of Master Oogway, the humor of Po, the discipline of Master Shifu, and memorable quotes from all your favorite characters across the entire franchise.\n<br><br>\n<em>\"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.\"</em> - Master Oogway\n",
                 "github_url": "https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes",
                 "learn_more_url": "https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes",
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 10,
-                "forks": 19
+                "installs": 5,
+                "forks": 27
             }
         },
         {
@@ -106,14 +106,14 @@
                 "name": "About This Plugin",
                 "field_type": "author_bio",
                 "category": "images,personal",
-                "description": "<strong>TRMNL Google Photos Canvas</strong> displays your Google Photos shared album in a clean, immersive, fullscreen layout — no captions, no metadata, just your photos edge to edge.\n<br><br>\n<strong>How It Works:</strong><br>\n1. Create a shared album in Google Photos<br>\n2. Copy the shared album link<br>\n3. Paste it below in the recipe settings<br>\n4. Enjoy a new random photo every hour or day (based on your TRMNL refresh settings)\n<br><br>\n<strong>Features:</strong><br>\n🖼️ Fullscreen, distraction-free photo display<br>\n🌈 Adaptive background color based on image being displayed (optional)<br>\n⚡ Fast loading with optional caching<br>\n🔒 No sign-in, no tracking, privacy-first\n",
+                "description": "<strong>TRMNL Google Photos Canvas</strong> displays your Google Photos shared album in a clean, immersive, fullscreen layout \u2014 no captions, no metadata, just your photos edge to edge.\n<br><br>\n<strong>How It Works:</strong><br>\n1. Create a shared album in Google Photos<br>\n2. Copy the shared album link<br>\n3. Paste it below in the recipe settings<br>\n4. Enjoy a new random photo every hour or day (based on your TRMNL refresh settings)\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\uddbc\ufe0f Fullscreen, distraction-free photo display<br>\n\ud83c\udf08 Adaptive background color based on image being displayed (optional)<br>\n\u26a1 Fast loading with optional caching<br>\n\ud83d\udd12 No sign-in, no tracking, privacy-first\n",
                 "github_url": "https://github.com/hossain-khan/trmnl-google-photos-plugin",
                 "learn_more_url": "https://hossain-khan.github.io/trmnl-google-photos-plugin/",
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
                 "installs": 0,
-                "forks": 56
+                "forks": 70
             }
         },
         {
@@ -129,14 +129,14 @@
                 "name": "About This Plugin",
                 "field_type": "author_bio",
                 "category": "images,personal",
-                "description": "Google Photos Shared Album brings your cherished memories to your TRMNL device by displaying random photos from your Google Photos shared albums — no sign-in needed.\n<br><br>\n<strong>How It Works:</strong><br>\n1. Create a shared album in Google Photos<br>\n2. Copy the shared album link<br>\n3. Paste it into the plugin settings<br>\n4. Photos automatically appear on your TRMNL device<br>\n5. New random photo displayed every hour or day based on your refresh configuration\n<br><br>\n<strong>Features:</strong><br>\n📸 Random photo selection from your shared albums<br>\n⏰ Automatic refresh with new random photos<br>\n🎨 Four optimized layouts for all TRMNL device sizes<br>\n📱 Responsive design across all e-ink displays<br>\n🖼️ Display photo metadata\n<br><br>\n<strong>Privacy-First Design:</strong> This plugin prioritizes your privacy - no need to sign in with Google. No cookies, no tracking, and we never save your personal information. \n",
+                "description": "Google Photos Shared Album brings your cherished memories to your TRMNL device by displaying random photos from your Google Photos shared albums \u2014 no sign-in needed.\n<br><br>\n<strong>How It Works:</strong><br>\n1. Create a shared album in Google Photos<br>\n2. Copy the shared album link<br>\n3. Paste it into the plugin settings<br>\n4. Photos automatically appear on your TRMNL device<br>\n5. New random photo displayed every hour or day based on your refresh configuration\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\udcf8 Random photo selection from your shared albums<br>\n\u23f0 Automatic refresh with new random photos<br>\n\ud83c\udfa8 Four optimized layouts for all TRMNL device sizes<br>\n\ud83d\udcf1 Responsive design across all e-ink displays<br>\n\ud83d\uddbc\ufe0f Display photo metadata\n<br><br>\n<strong>Privacy-First Design:</strong> This plugin prioritizes your privacy - no need to sign in with Google. No cookies, no tracking, and we never save your personal information. \n",
                 "github_url": "https://github.com/hossain-khan/trmnl-google-photos-plugin",
                 "learn_more_url": "https://hossain-khan.github.io/trmnl-google-photos-plugin/",
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
                 "installs": 1,
-                "forks": 106
+                "forks": 134
             }
         },
         {
@@ -152,14 +152,14 @@
                 "name": "About This Plugin",
                 "field_type": "author_bio",
                 "category": "education,discovery",
-                "description": "Element of the Day brings the wonder of chemistry to your TRMNL device by displaying a different element from the Periodic Table each day (or hour).\n<br><br>\n<strong>Features:</strong><br>\n🔬 118 elements with comprehensive scientific data<br>\n⏰ Daily rotation or hourly random display modes<br>\n📊 Atomic number, mass, electron configuration, and more<br>\n🎨 Periodic table-style card design<br>\n📱 Four optimized layouts (Full, Half Horizontal, Half Vertical, Quadrant)<br>\n⚡ Fast static data delivery via GitHub Pages<br>\n🧪 Data sourced from PubChem database\n<br><br>\n<strong>Setup:</strong><br>\n1. Install or Fork this recipe<br>\n2. Choose your preferred display mode (Daily or Hourly)<br>\n3. Select your favorite layout size<br>\n4. Add to your playlist and learn chemistry one element at a time\n<br><br>\nPerfect for students, educators, science enthusiasts, or anyone curious about the building blocks of matter. Each element includes atomic properties, physical characteristics, and historical discovery information.\n<br><br>\n<strong>Data Source:</strong> All 118 elements verified from PubChem (National Center for Biotechnology Information)\n",
+                "description": "Element of the Day brings the wonder of chemistry to your TRMNL device by displaying a different element from the Periodic Table each day (or hour).\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\udd2c 118 elements with comprehensive scientific data<br>\n\u23f0 Daily rotation or hourly random display modes<br>\n\ud83d\udcca Atomic number, mass, electron configuration, and more<br>\n\ud83c\udfa8 Periodic table-style card design<br>\n\ud83d\udcf1 Four optimized layouts (Full, Half Horizontal, Half Vertical, Quadrant)<br>\n\u26a1 Fast static data delivery via GitHub Pages<br>\n\ud83e\uddea Data sourced from PubChem database\n<br><br>\n<strong>Setup:</strong><br>\n1. Install or Fork this recipe<br>\n2. Choose your preferred display mode (Daily or Hourly)<br>\n3. Select your favorite layout size<br>\n4. Add to your playlist and learn chemistry one element at a time\n<br><br>\nPerfect for students, educators, science enthusiasts, or anyone curious about the building blocks of matter. Each element includes atomic properties, physical characteristics, and historical discovery information.\n<br><br>\n<strong>Data Source:</strong> All 118 elements verified from PubChem (National Center for Biotechnology Information)\n",
                 "github_url": "https://github.com/hossain-khan/trmnl-elements-plugin",
                 "learn_more_url": "https://hossain-khan.github.io/trmnl-elements-plugin/",
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 11,
-                "forks": 56
+                "installs": 9,
+                "forks": 77
             }
         },
         {
@@ -175,13 +175,13 @@
                 "name": "About This Plugin",
                 "field_type": "author_bio",
                 "category": "entertainment,games",
-                "description": "Max Payne Quotes brings the iconic noir dialogue from the legendary Max Payne trilogy directly to your TRMNL device.\n<br><br>\n<strong>Features:</strong><br>\n🎮 39 authentic quotes from Max Payne, Max Payne 2, and Max Payne 3<br>\n🗨️ Noir-style typography with Courier New monospace font<br>\n📱 Optimized layouts for all TRMNL view sizes<br>\n🎨 Game-specific poster artwork for visual atmosphere<br>\n🎲 Random quote selection with daily automatic updates\n<br><br>\n<strong>Setup:</strong><br>\n1. Install or Fork this recipe<br>\n2. The plugin automatically polls for a new quote every 24 hours<br>\n3. Add to your playlist and enjoy noir wisdom on your e-ink display\n<br><br>\nAll quotes are verified authentic from Wikiquote and capture the philosophical, dark, and action-packed moments that made Max Payne an iconic character in gaming.\n<br><br>\n<strong>Quote Database:</strong> 39 quotes verified from Wikiquote (35 Max Payne across trilogy, 4 Mona Sax)\n",
+                "description": "Max Payne Quotes brings the iconic noir dialogue from the legendary Max Payne trilogy directly to your TRMNL device.\n<br><br>\n<strong>Features:</strong><br>\n\ud83c\udfae 39 authentic quotes from Max Payne, Max Payne 2, and Max Payne 3<br>\n\ud83d\udde8\ufe0f Noir-style typography with Courier New monospace font<br>\n\ud83d\udcf1 Optimized layouts for all TRMNL view sizes<br>\n\ud83c\udfa8 Game-specific poster artwork for visual atmosphere<br>\n\ud83c\udfb2 Random quote selection with daily automatic updates\n<br><br>\n<strong>Setup:</strong><br>\n1. Install or Fork this recipe<br>\n2. The plugin automatically polls for a new quote every 24 hours<br>\n3. Add to your playlist and enjoy noir wisdom on your e-ink display\n<br><br>\nAll quotes are verified authentic from Wikiquote and capture the philosophical, dark, and action-packed moments that made Max Payne an iconic character in gaming.\n<br><br>\n<strong>Quote Database:</strong> 39 quotes verified from Wikiquote (35 Max Payne across trilogy, 4 Mona Sax)\n",
                 "github_url": "https://github.com/hossain-khan/trmnl-max-payne-quotes-plugin",
                 "learn_more_url": "https://hossain-khan.github.io/trmnl-max-payne-quotes-plugin/",
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 28,
+                "installs": 27,
                 "forks": 1
             }
         },
@@ -192,20 +192,20 @@
             "published_at": "2025-12-18T02:42:45.976Z",
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/fta9bofo75kbe71re9b0uu1x4rha",
             "icon_content_type": "image/png",
-            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/ldzetshco73uyqps1pnrlawpw49x",
+            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/ktoe5qyofi7bo37ynfzag2t430fe",
             "author_bio": {
                 "keyname": "author_bio",
                 "name": "About This Plugin",
                 "field_type": "author_bio",
                 "category": "life,environment",
-                "description": "Durham Waste Collection displays your next garbage, recycling, green bin, and yard waste pickup dates directly on your TRMNL device.\n<br><br>\n<strong>Features:</strong><br>\n🗓️ Real-time updates from Durham Region API<br>\n♻️ All collection types (Blue Box, Green Bin, Garbage, Yard Waste)<br>\n📱 Optimized layouts for all TRMNL view sizes<br>\n🎨 Beautiful icons for each collection type<br>\n⏰ Countdown display showing days until next pickup\n<br><br>\n<strong>Setup:</strong><br>\n1. Visit our Configuration Helper to find your Place ID:<br><a href=\"https://hossain-khan.github.io/trmnl-next-pickup-plugin/\">https://hossain-khan.github.io/trmnl-next-pickup-plugin/</a><br>\n2. Enter your Durham Region address<br>\n3. Copy the configuration values<br>\n4. Paste them into the plugin form fields below\n<br><br>\nThat's it! Your plugin will automatically refresh with the latest pickup schedule.\n<br><br>\n<strong>Note:</strong> This plugin is designed for Durham Region, Ontario residents only.\n",
+                "description": "Durham Waste Collection displays your next garbage, recycling, green bin, and yard waste pickup dates directly on your TRMNL device.\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\uddd3\ufe0f Real-time updates from Durham Region API<br>\n\u267b\ufe0f All collection types (Blue Box, Green Bin, Garbage, Yard Waste)<br>\n\ud83d\udcf1 Optimized layouts for all TRMNL view sizes<br>\n\ud83c\udfa8 Beautiful icons for each collection type<br>\n\u23f0 Countdown display showing days until next pickup\n<br><br>\n<strong>Setup:</strong><br>\n1. Visit our Configuration Helper to find your Place ID:<br><a href=\"https://hossain-khan.github.io/trmnl-next-pickup-plugin/\">https://hossain-khan.github.io/trmnl-next-pickup-plugin/</a><br>\n2. Enter your Durham Region address<br>\n3. Copy the configuration values<br>\n4. Paste them into the plugin form fields below\n<br><br>\nThat's it! Your plugin will automatically refresh with the latest pickup schedule.\n<br><br>\n<strong>Note:</strong> This plugin is designed for Durham Region, Ontario residents only.\n",
                 "github_url": "https://github.com/hossain-khan/trmnl-next-pickup-plugin",
                 "learn_more_url": "https://hossain-khan.github.io/trmnl-next-pickup-plugin/",
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
                 "installs": 10,
-                "forks": 6
+                "forks": 7
             }
         }
     ],

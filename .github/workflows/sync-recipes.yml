@@ -1,0 +1,54 @@
+name: Sync Recipes Data
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Fetch and update recipes.json
+        run: |
+          python3 - <<'EOF'
+          import json
+          import urllib.request
+
+          url = "https://trmnl-badges.gohk.xyz/api/recipes?user_id=29"
+          with urllib.request.urlopen(url) as response:
+              new_data = json.loads(response.read())
+
+          with open("data/recipes.json") as f:
+              existing = json.load(f)
+
+          # Strip custom_fields from each plugin entry
+          for plugin in new_data["data"]:
+              plugin.pop("custom_fields", None)
+
+          # Preserve metadata keys, update data and pagination fields
+          for key in new_data:
+              if key != "data":
+                  existing[key] = new_data[key]
+          existing["data"] = new_data["data"]
+
+          with open("data/recipes.json", "w") as f:
+              json.dump(existing, f, indent=4)
+              f.write("\n")
+
+          print(f"Updated: {len(new_data['data'])} plugins written")
+          EOF
+
+      - name: Commit updated recipes.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/recipes.json
+          git diff --cached --quiet || git commit -m "chore: sync recipes data from TRMNL API"
+          git push
