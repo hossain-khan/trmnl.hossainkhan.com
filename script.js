@@ -58,10 +58,24 @@
     return tmp.textContent || tmp.innerText || '';
   }
 
-  /** Format date to "Mon YYYY" */
+  /** Escape HTML entities to prevent injection when building innerHTML strings */
+  function escapeHtml(str) {
+    var map = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+    return String(str || '').replace(/[&<>"']/g, function (c) { return map[c]; });
+  }
+
+  /** Format date to "Mon YYYY"; returns empty string on invalid input */
   function formatDate(iso) {
+    if (!iso) return '';
     var d = new Date(iso);
+    if (isNaN(d.getTime())) return '';
     return d.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+  }
+
+  /** Format large counts as "1.2k" for readability */
+  function formatCount(n) {
+    if (n >= 1000) return (n / 1000).toFixed(1).replace(/\.0$/, '') + 'k';
+    return String(n);
   }
 
   /** Extract unique categories from all plugins */
@@ -178,29 +192,52 @@
     card.innerHTML =
       '<div class="plugin-card__screenshot">' +
         (plugin.screenshot_url
-          ? '<img src="' + plugin.screenshot_url + '" alt="Screenshot of ' + plugin.name + ' plugin" loading="lazy">'
+          ? '<img src="' + escapeHtml(plugin.screenshot_url) + '" alt="Screenshot of ' + escapeHtml(plugin.name) + ' plugin" loading="lazy" onerror="this.style.display=\'none\'">'
           : '') +
       '</div>' +
       '<div class="plugin-card__body">' +
         '<div class="plugin-card__header">' +
           (plugin.icon_url
-            ? '<img class="plugin-card__icon" src="' + plugin.icon_url + '" alt="" width="28" height="28" loading="lazy">'
+            ? '<img class="plugin-card__icon" src="' + escapeHtml(plugin.icon_url) + '" alt="" width="28" height="28" loading="lazy" onerror="this.style.display=\'none\'">'
             : '') +
-          '<h2 class="plugin-card__name">' + plugin.name + '</h2>' +
+          '<h2 class="plugin-card__name">' + escapeHtml(plugin.name) + '</h2>' +
         '</div>' +
-        '<p class="plugin-card__desc">' + desc + '</p>' +
+        '<p class="plugin-card__desc">' + escapeHtml(desc) + '</p>' +
         '<div class="plugin-card__tags">' + tagsHtml + '</div>' +
         '<div class="plugin-card__meta">' +
           (installs > 0
-            ? '<span class="plugin-card__stat" title="Installs">' + ICONS.download + ' <span class="sr-only">Installs: </span>' + installs + '</span>'
+            ? '<span class="plugin-card__stat" title="Installs">' + ICONS.download + ' <span class="sr-only">Installs: </span>' + formatCount(installs) + '</span>'
             : '') +
-          '<span class="plugin-card__stat" title="Forks">' + ICONS.fork + ' <span class="sr-only">Forks: </span>' + forks + '</span>' +
-          '<span class="plugin-card__date">' + formatDate(plugin.published_at) + '</span>' +
+          '<span class="plugin-card__stat" title="Forks">' + ICONS.fork + ' <span class="sr-only">Forks: </span>' + formatCount(forks) + '</span>' +
+          (plugin.published_at ? '<span class="plugin-card__date">' + formatDate(plugin.published_at) + '</span>' : '') +
         '</div>' +
       '</div>' +
       '<div class="plugin-card__actions">' + actionsHtml + '</div>';
 
     return card;
+  }
+
+  function renderSkeleton() {
+    var html = '';
+    for (var i = 0; i < 6; i++) {
+      html +=
+        '<div class="plugin-card plugin-card--skeleton" aria-hidden="true">' +
+          '<div class="plugin-card__screenshot"></div>' +
+          '<div class="plugin-card__body">' +
+            '<div class="plugin-card__header">' +
+              '<div class="skeleton-shimmer skeleton-shimmer--icon"></div>' +
+              '<div class="skeleton-shimmer skeleton-shimmer--title"></div>' +
+            '</div>' +
+            '<div class="skeleton-shimmer skeleton-shimmer--text"></div>' +
+            '<div class="skeleton-shimmer skeleton-shimmer--text-md"></div>' +
+            '<div class="skeleton-shimmer skeleton-shimmer--text-sm"></div>' +
+          '</div>' +
+          '<div class="plugin-card__actions">' +
+            '<div class="skeleton-shimmer skeleton-shimmer--action"></div>' +
+          '</div>' +
+        '</div>';
+    }
+    pluginGrid.innerHTML = html;
   }
 
   function renderGrid(plugins) {
@@ -307,6 +344,8 @@
 
   // ---- Init ----
 
+  renderSkeleton();
+
   fetch(DATA_URL)
     .then(function (res) {
       if (!res.ok) throw new Error('Failed to load plugin data');
@@ -326,7 +365,9 @@
     })
     .catch(function (err) {
       console.error('Error loading plugins:', err);
-      pluginGrid.innerHTML = '<p class="grid-empty">Unable to load plugins. Try refreshing the page, or visit <a href="https://github.com/hossain-khan" target="_blank" rel="noopener noreferrer">GitHub</a> to browse the source directly.</p>';
+      pluginGrid.innerHTML = '';
+      gridEmpty.hidden = false;
+      gridEmpty.innerHTML = 'Unable to load plugins. Try refreshing the page, or visit <a href="https://github.com/hossain-khan" target="_blank" rel="noopener noreferrer">GitHub</a> to browse the source directly.';
     });
 
 })();
