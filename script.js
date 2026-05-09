@@ -11,6 +11,7 @@
   // DOM refs
   const heroStats = document.getElementById('heroStats');
   const filterBar = document.getElementById('filterBar');
+  const filterStatus = document.getElementById('filterStatus');
   const pluginGrid = document.getElementById('pluginGrid');
   const gridEmpty = document.getElementById('gridEmpty');
   const themeToggle = document.getElementById('themeToggle');
@@ -158,7 +159,7 @@
     var forks = (plugin.stats && plugin.stats.forks) || 0;
 
     var tagsHtml = categories.map(function (c) {
-      return '<button type="button" class="tag" data-category="' + c + '">' + c.charAt(0).toUpperCase() + c.slice(1) + '</button>';
+      return '<button type="button" class="tag" aria-pressed="false" data-category="' + c + '">' + c.charAt(0).toUpperCase() + c.slice(1) + '</button>';
     }).join('');
 
     var actionsHtml =
@@ -183,14 +184,16 @@
       '<div class="plugin-card__body">' +
         '<div class="plugin-card__header">' +
           (plugin.icon_url
-            ? '<img class="plugin-card__icon" src="' + plugin.icon_url + '" alt="" loading="lazy">'
+            ? '<img class="plugin-card__icon" src="' + plugin.icon_url + '" alt="" width="28" height="28" loading="lazy">'
             : '') +
           '<h2 class="plugin-card__name">' + plugin.name + '</h2>' +
         '</div>' +
         '<p class="plugin-card__desc">' + desc + '</p>' +
         '<div class="plugin-card__tags">' + tagsHtml + '</div>' +
         '<div class="plugin-card__meta">' +
-          '<span class="plugin-card__stat" title="Installs">' + ICONS.download + ' <span class="sr-only">Installs: </span>' + installs + '</span>' +
+          (installs > 0
+            ? '<span class="plugin-card__stat" title="Installs">' + ICONS.download + ' <span class="sr-only">Installs: </span>' + installs + '</span>'
+            : '') +
           '<span class="plugin-card__stat" title="Forks">' + ICONS.fork + ' <span class="sr-only">Forks: </span>' + forks + '</span>' +
           '<span class="plugin-card__date">' + formatDate(plugin.published_at) + '</span>' +
         '</div>' +
@@ -247,9 +250,17 @@
 
     gridEmpty.hidden = visibleCount > 0;
 
-    // Highlight matching tags in cards
+    // Announce result count to screen readers
+    var total = cards.length;
+    filterStatus.textContent = category === 'all'
+      ? 'Showing all ' + total + ' plugins'
+      : 'Showing ' + visibleCount + ' of ' + total + ' plugins';
+
+    // Highlight matching tags in cards and sync aria-pressed
     pluginGrid.querySelectorAll('.tag').forEach(function (tag) {
-      tag.classList.toggle('is-active', tag.getAttribute('data-category') === category);
+      var isActive = tag.getAttribute('data-category') === category;
+      tag.classList.toggle('is-active', isActive);
+      tag.setAttribute('aria-pressed', isActive ? 'true' : 'false');
     });
   }
 
