@@ -4,6 +4,52 @@
     "X-API-DOCS": "https://docs.trmnl.com/go/public-api/recipes-api",
     "data": [
         {
+            "id": 227153,
+            "user_id": 29,
+            "name": "Google Photos",
+            "published_at": "2026-01-21T04:17:27.992Z",
+            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/k25eoz1ytss10hkogbmwn9z92mwe",
+            "icon_content_type": "image/png",
+            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/1dq461pjw2hdir4t409xbgulfl9s",
+            "author_bio": {
+                "keyname": "author_bio",
+                "name": "About This Plugin",
+                "field_type": "author_bio",
+                "category": "images,personal",
+                "description": "Google Photos Shared Album brings your cherished memories to your TRMNL device by displaying random photos from your Google Photos shared albums \u2014 no sign-in needed.\n<br><br>\n<strong>How It Works:</strong><br>\n1. Create a shared album in Google Photos<br>\n2. Copy the shared album link<br>\n3. Paste it into the plugin settings<br>\n4. Photos automatically appear on your TRMNL device<br>\n5. New random photo displayed every hour or day based on your refresh configuration\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\udcf8 Random photo selection from your shared albums<br>\n\u23f0 Automatic refresh with new random photos<br>\n\ud83c\udfa8 Four optimized layouts for all TRMNL device sizes<br>\n\ud83d\udcf1 Responsive design across all e-ink displays<br>\n\ud83d\uddbc\ufe0f Display photo metadata\n<br><br>\n<strong>Privacy-First Design:</strong> This plugin prioritizes your privacy - no need to sign in with Google. No cookies, no tracking, and we never save your personal information. \n",
+                "github_url": "https://github.com/hossain-khan/trmnl-google-photos-plugin",
+                "learn_more_url": "https://hossain-khan.github.io/trmnl-google-photos-plugin/",
+                "email_address": "trmnl@hossain.dev"
+            },
+            "stats": {
+                "installs": 7,
+                "forks": 175
+            }
+        },
+        {
+            "id": 226166,
+            "user_id": 29,
+            "name": "Element of the Day",
+            "published_at": "2026-01-17T23:28:12.159Z",
+            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/lnh3i6y972h4nrrv2t7r0jcwu14n",
+            "icon_content_type": "image/png",
+            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/rl6x50gfreofrbibybfvh67f53gu",
+            "author_bio": {
+                "keyname": "author_bio",
+                "name": "About This Plugin",
+                "field_type": "author_bio",
+                "category": "education,discovery",
+                "description": "Element of the Day brings the wonder of chemistry to your TRMNL device by displaying a different element from the Periodic Table each day (or hour).\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\udd2c 118 elements with comprehensive scientific data<br>\n\u23f0 Daily rotation or hourly random display modes<br>\n\ud83d\udcca Atomic number, mass, electron configuration, and more<br>\n\ud83c\udfa8 Periodic table-style card design<br>\n\ud83d\udcf1 Four optimized layouts (Full, Half Horizontal, Half Vertical, Quadrant)<br>\n\u26a1 Fast static data delivery via GitHub Pages<br>\n\ud83e\uddea Data sourced from PubChem database\n<br><br>\n<strong>Setup:</strong><br>\n1. Install or Fork this recipe<br>\n2. Choose your preferred display mode (Daily or Hourly)<br>\n3. Select your favorite layout size<br>\n4. Add to your playlist and learn chemistry one element at a time\n<br><br>\nPerfect for students, educators, science enthusiasts, or anyone curious about the building blocks of matter. Each element includes atomic properties, physical characteristics, and historical discovery information.\n<br><br>\n<strong>Data Source:</strong> All 118 elements verified from PubChem (National Center for Biotechnology Information)\n",
+                "github_url": "https://github.com/hossain-khan/trmnl-elements-plugin",
+                "learn_more_url": "https://hossain-khan.github.io/trmnl-elements-plugin/",
+                "email_address": "trmnl@hossain.dev"
+            },
+            "stats": {
+                "installs": 10,
+                "forks": 95
+            }
+        },
+        {
             "id": 261373,
             "user_id": 29,
             "name": "Calendar XL",
@@ -22,75 +68,7 @@
             },
             "stats": {
                 "installs": 0,
-                "forks": 55
-            }
-        },
-        {
-            "id": 246906,
-            "user_id": 29,
-            "name": "Islamic Prayer Times",
-            "published_at": "2026-02-19T14:05:29.027Z",
-            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/jlaow5v15p3r4qxau8iokm8iuay0",
-            "icon_content_type": "image/png",
-            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/3rx487km5l8l8xsb18bppjqsk717",
-            "author_bio": {
-                "keyname": "author_bio",
-                "field_type": "author_bio",
-                "name": "About This Plugin",
-                "description": "Display accurate \ud83d\udd4c Islamic salah prayer times for your location with Hijri calendar, 12/24-hour format options, and responsive layouts for all TRMNL devices.",
-                "category": "life,personal",
-                "email_address": "trmnl@hossain.dev",
-                "github_url": "https://github.com/hossain-khan/trmnl-prayer-times"
-            },
-            "stats": {
-                "installs": 5,
-                "forks": 23
-            }
-        },
-        {
-            "id": 226758,
-            "user_id": 29,
-            "name": "GO Transit Schedule",
-            "published_at": "2026-02-18T04:56:01.682Z",
-            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/wsk5d3xr16p48f6x7x8ayz6a6cv5",
-            "icon_content_type": "image/png",
-            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/f726nzmtaccf6s50989qpod57a4h",
-            "author_bio": {
-                "keyname": "about",
-                "name": "About This Plugin",
-                "category": "travel,life",
-                "field_type": "author_bio",
-                "description": "GO Transit Dashboard displays real-time departure information for your preferred GO Rail station.\nFeatures include two-direction schedules, service alerts, and responsive layouts for all TRMNL devices.\nData is sourced from the Metrolinx Open Data API with intelligent edge caching for optimal performance.\n",
-                "github_url": "https://github.com/hossain-khan/trmnl-go-transit-plugin",
-                "learn_more_url": "https://hossain-khan.github.io/trmnl-go-transit-plugin/",
-                "email_address": "trmnl@hossain.dev"
-            },
-            "stats": {
-                "installs": 0,
-                "forks": 15
-            }
-        },
-        {
-            "id": 240176,
-            "user_id": 29,
-            "name": "Kung Fu Panda Quotes",
-            "published_at": "2026-02-09T07:45:36.616Z",
-            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/e5566c94mqsu0jgvvx76izss4zz4",
-            "icon_content_type": "image/png",
-            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/gixri251e2b3i61lgygr3w9l8vfn",
-            "author_bio": {
-                "keyname": "kung_fu_panda_quotes",
-                "field_type": "author_bio",
-                "name": "Kung Fu Panda Quotes",
-                "category": "entertainment,humor",
-                "description": "Kung Fu Panda Quotes brings the wisdom, humor, and philosophy from all four Kung Fu Panda films directly to your TRMNL device.\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\udc3c 80+ authentic quotes from all 4 Kung Fu Panda movies<br>\n\ud83c\udfad 8 themed collections: Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, Villainy<br>\n\ud83c\udfa8 Beautiful movie poster displays optimized for e-ink<br>\n\ud83d\udd04 Daily automatic quote updates with intelligent rotation<br>\n<br><br>\n<strong>Setup:</strong><br>\n1. Install or Fork this recipe<br>\n2. Choose your preferred quote theme (or \"All Themes\" for variety)<br>\n3. The plugin automatically polls for a new quote every 24 hours<br>\n4. Add to your playlist and experience daily wisdom from the Valley of Peace\n<br><br>\nExperience the timeless wisdom of Master Oogway, the humor of Po, the discipline of Master Shifu, and memorable quotes from all your favorite characters across the entire franchise.\n<br><br>\n<em>\"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.\"</em> - Master Oogway\n",
-                "github_url": "https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes",
-                "learn_more_url": "https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes",
-                "email_address": "trmnl@hossain.dev"
-            },
-            "stats": {
-                "installs": 5,
-                "forks": 27
+                "forks": 101
             }
         },
         {
@@ -113,53 +91,52 @@
             },
             "stats": {
                 "installs": 0,
-                "forks": 70
+                "forks": 89
             }
         },
         {
-            "id": 227153,
+            "id": 240176,
             "user_id": 29,
-            "name": "Google Photos",
-            "published_at": "2026-01-21T04:17:27.992Z",
-            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/k25eoz1ytss10hkogbmwn9z92mwe",
+            "name": "Kung Fu Panda Quotes",
+            "published_at": "2026-02-09T07:45:36.616Z",
+            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/e5566c94mqsu0jgvvx76izss4zz4",
             "icon_content_type": "image/png",
-            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/1dq461pjw2hdir4t409xbgulfl9s",
+            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/gixri251e2b3i61lgygr3w9l8vfn",
             "author_bio": {
-                "keyname": "author_bio",
-                "name": "About This Plugin",
+                "keyname": "kung_fu_panda_quotes",
                 "field_type": "author_bio",
-                "category": "images,personal",
-                "description": "Google Photos Shared Album brings your cherished memories to your TRMNL device by displaying random photos from your Google Photos shared albums \u2014 no sign-in needed.\n<br><br>\n<strong>How It Works:</strong><br>\n1. Create a shared album in Google Photos<br>\n2. Copy the shared album link<br>\n3. Paste it into the plugin settings<br>\n4. Photos automatically appear on your TRMNL device<br>\n5. New random photo displayed every hour or day based on your refresh configuration\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\udcf8 Random photo selection from your shared albums<br>\n\u23f0 Automatic refresh with new random photos<br>\n\ud83c\udfa8 Four optimized layouts for all TRMNL device sizes<br>\n\ud83d\udcf1 Responsive design across all e-ink displays<br>\n\ud83d\uddbc\ufe0f Display photo metadata\n<br><br>\n<strong>Privacy-First Design:</strong> This plugin prioritizes your privacy - no need to sign in with Google. No cookies, no tracking, and we never save your personal information. \n",
-                "github_url": "https://github.com/hossain-khan/trmnl-google-photos-plugin",
-                "learn_more_url": "https://hossain-khan.github.io/trmnl-google-photos-plugin/",
+                "name": "Kung Fu Panda Quotes",
+                "category": "entertainment,humor",
+                "description": "Kung Fu Panda Quotes brings the wisdom, humor, and philosophy from all four Kung Fu Panda films directly to your TRMNL device.\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\udc3c 80+ authentic quotes from all 4 Kung Fu Panda movies<br>\n\ud83c\udfad 8 themed collections: Wisdom, Humor, Growth, Combat, Identity, Confidence, Iconic, Villainy<br>\n\ud83c\udfa8 Beautiful movie poster displays optimized for e-ink<br>\n\ud83d\udd04 Daily automatic quote updates with intelligent rotation<br>\n<br><br>\n<strong>Setup:</strong><br>\n1. Install or Fork this recipe<br>\n2. Choose your preferred quote theme (or \"All Themes\" for variety)<br>\n3. The plugin automatically polls for a new quote every 24 hours<br>\n4. Add to your playlist and experience daily wisdom from the Valley of Peace\n<br><br>\nExperience the timeless wisdom of Master Oogway, the humor of Po, the discipline of Master Shifu, and memorable quotes from all your favorite characters across the entire franchise.\n<br><br>\n<em>\"Yesterday is history, tomorrow is a mystery, but today is a gift. That is why it is called the present.\"</em> - Master Oogway\n",
+                "github_url": "https://github.com/hossain-khan/trmnl-kung-fu-panda-quotes",
+                "learn_more_url": "https://hossain-khan.github.io/trmnl-kung-fu-panda-quotes",
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 1,
-                "forks": 134
+                "installs": 6,
+                "forks": 39
             }
         },
         {
-            "id": 226166,
+            "id": 246906,
             "user_id": 29,
-            "name": "Element of the Day",
-            "published_at": "2026-01-17T23:28:12.159Z",
-            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/lnh3i6y972h4nrrv2t7r0jcwu14n",
+            "name": "Islamic Prayer Times",
+            "published_at": "2026-02-19T14:05:29.027Z",
+            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/jlaow5v15p3r4qxau8iokm8iuay0",
             "icon_content_type": "image/png",
-            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/rl6x50gfreofrbibybfvh67f53gu",
+            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/3rx487km5l8l8xsb18bppjqsk717",
             "author_bio": {
                 "keyname": "author_bio",
-                "name": "About This Plugin",
                 "field_type": "author_bio",
-                "category": "education,discovery",
-                "description": "Element of the Day brings the wonder of chemistry to your TRMNL device by displaying a different element from the Periodic Table each day (or hour).\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\udd2c 118 elements with comprehensive scientific data<br>\n\u23f0 Daily rotation or hourly random display modes<br>\n\ud83d\udcca Atomic number, mass, electron configuration, and more<br>\n\ud83c\udfa8 Periodic table-style card design<br>\n\ud83d\udcf1 Four optimized layouts (Full, Half Horizontal, Half Vertical, Quadrant)<br>\n\u26a1 Fast static data delivery via GitHub Pages<br>\n\ud83e\uddea Data sourced from PubChem database\n<br><br>\n<strong>Setup:</strong><br>\n1. Install or Fork this recipe<br>\n2. Choose your preferred display mode (Daily or Hourly)<br>\n3. Select your favorite layout size<br>\n4. Add to your playlist and learn chemistry one element at a time\n<br><br>\nPerfect for students, educators, science enthusiasts, or anyone curious about the building blocks of matter. Each element includes atomic properties, physical characteristics, and historical discovery information.\n<br><br>\n<strong>Data Source:</strong> All 118 elements verified from PubChem (National Center for Biotechnology Information)\n",
-                "github_url": "https://github.com/hossain-khan/trmnl-elements-plugin",
-                "learn_more_url": "https://hossain-khan.github.io/trmnl-elements-plugin/",
-                "email_address": "trmnl@hossain.dev"
+                "name": "About This Plugin",
+                "description": "Display accurate \ud83d\udd4c Islamic salah prayer times for your location with Hijri calendar, 12/24-hour format options, and responsive layouts for all TRMNL devices.",
+                "category": "life,personal",
+                "email_address": "trmnl@hossain.dev",
+                "github_url": "https://github.com/hossain-khan/trmnl-prayer-times"
             },
             "stats": {
-                "installs": 9,
-                "forks": 77
+                "installs": 5,
+                "forks": 34
             }
         },
         {
@@ -181,7 +158,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 27,
+                "installs": 29,
                 "forks": 1
             }
         },
@@ -205,7 +182,30 @@
             },
             "stats": {
                 "installs": 10,
-                "forks": 7
+                "forks": 8
+            }
+        },
+        {
+            "id": 226758,
+            "user_id": 29,
+            "name": "GO Transit Schedule",
+            "published_at": "2026-02-18T04:56:01.682Z",
+            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/wsk5d3xr16p48f6x7x8ayz6a6cv5",
+            "icon_content_type": "image/png",
+            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/f726nzmtaccf6s50989qpod57a4h",
+            "author_bio": {
+                "keyname": "about",
+                "name": "About This Plugin",
+                "category": "travel,life",
+                "field_type": "author_bio",
+                "description": "GO Transit Dashboard displays real-time departure information for your preferred GO Rail station.\nFeatures include two-direction schedules, service alerts, and responsive layouts for all TRMNL devices.\nData is sourced from the Metrolinx Open Data API with intelligent edge caching for optimal performance.\n",
+                "github_url": "https://github.com/hossain-khan/trmnl-go-transit-plugin",
+                "learn_more_url": "https://hossain-khan.github.io/trmnl-go-transit-plugin/",
+                "email_address": "trmnl@hossain.dev"
+            },
+            "stats": {
+                "installs": 0,
+                "forks": 17
             }
         }
     ],
