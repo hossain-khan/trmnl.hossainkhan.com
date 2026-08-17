@@ -23,8 +23,8 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 5,
-                "forks": 196
+                "installs": 120,
+                "forks": 8
             }
         },
         {
@@ -47,8 +47,8 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 9,
-                "forks": 111
+                "installs": 85,
+                "forks": 2
             }
         },
         {
@@ -70,8 +70,8 @@
                 "description": "Same calendar you know, now in XL - big enough to read from your desk, the couch, or across the room. See what's happening NOW, what's up NEXT, and a peek at what's LATER. No squinting required. <br><br> \u2139\ufe0f Requires a native Google Calendar plugin connected and added in playlist for fresh data."
             },
             "stats": {
-                "installs": 0,
-                "forks": 112
+                "installs": 44,
+                "forks": 12
             }
         },
         {
@@ -94,8 +94,8 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 0,
-                "forks": 95
+                "installs": 43,
+                "forks": 3
             }
         },
         {
@@ -118,8 +118,8 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 5,
-                "forks": 43
+                "installs": 28,
+                "forks": 0
             }
         },
         {
@@ -141,8 +141,8 @@
                 "github_url": "https://github.com/hossain-khan/trmnl-prayer-times"
             },
             "stats": {
-                "installs": 5,
-                "forks": 34
+                "installs": 21,
+                "forks": 1
             }
         },
         {
@@ -165,32 +165,8 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 24,
+                "installs": 12,
                 "forks": 1
-            }
-        },
-        {
-            "id": 178528,
-            "user_id": 29,
-            "name": "Durham Waste Collection",
-            "description": null,
-            "published_at": "2025-12-18T02:42:45.976Z",
-            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/fta9bofo75kbe71re9b0uu1x4rha",
-            "icon_content_type": "image/png",
-            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/ktoe5qyofi7bo37ynfzag2t430fe",
-            "author_bio": {
-                "keyname": "author_bio",
-                "name": "About This Plugin",
-                "field_type": "author_bio",
-                "category": "life,environment",
-                "description": "Durham Waste Collection displays your next garbage, recycling, green bin, and yard waste pickup dates directly on your TRMNL device.\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\uddd3\ufe0f Real-time updates from Durham Region API<br>\n\u267b\ufe0f All collection types (Blue Box, Green Bin, Garbage, Yard Waste)<br>\n\ud83d\udcf1 Optimized layouts for all TRMNL view sizes<br>\n\ud83c\udfa8 Beautiful icons for each collection type<br>\n\u23f0 Countdown display showing days until next pickup\n<br><br>\n<strong>Setup:</strong><br>\n1. Visit our Configuration Helper to find your Place ID:<br><a href=\"https://hossain-khan.github.io/trmnl-next-pickup-plugin/\">https://hossain-khan.github.io/trmnl-next-pickup-plugin/</a><br>\n2. Enter your Durham Region address<br>\n3. Copy the configuration values<br>\n4. Paste them into the plugin form fields below\n<br><br>\nThat's it! Your plugin will automatically refresh with the latest pickup schedule.\n<br><br>\n<strong>Note:</strong> This plugin is designed for Durham Region, Ontario residents only.\n",
-                "github_url": "https://github.com/hossain-khan/trmnl-next-pickup-plugin",
-                "learn_more_url": "https://hossain-khan.github.io/trmnl-next-pickup-plugin/",
-                "email_address": "trmnl@hossain.dev"
-            },
-            "stats": {
-                "installs": 11,
-                "forks": 8
             }
         },
         {
@@ -213,8 +189,32 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 0,
-                "forks": 17
+                "installs": 8,
+                "forks": 0
+            }
+        },
+        {
+            "id": 178528,
+            "user_id": 29,
+            "name": "Durham Waste Collection",
+            "description": null,
+            "published_at": "2025-12-18T02:42:45.976Z",
+            "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/fta9bofo75kbe71re9b0uu1x4rha",
+            "icon_content_type": "image/png",
+            "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/ktoe5qyofi7bo37ynfzag2t430fe",
+            "author_bio": {
+                "keyname": "author_bio",
+                "name": "About This Plugin",
+                "field_type": "author_bio",
+                "category": "life,environment",
+                "description": "Durham Waste Collection displays your next garbage, recycling, green bin, and yard waste pickup dates directly on your TRMNL device.\n<br><br>\n<strong>Features:</strong><br>\n\ud83d\uddd3\ufe0f Real-time updates from Durham Region API<br>\n\u267b\ufe0f All collection types (Blue Box, Green Bin, Garbage, Yard Waste)<br>\n\ud83d\udcf1 Optimized layouts for all TRMNL view sizes<br>\n\ud83c\udfa8 Beautiful icons for each collection type<br>\n\u23f0 Countdown display showing days until next pickup\n<br><br>\n<strong>Setup:</strong><br>\n1. Visit our Configuration Helper to find your Place ID:<br><a href=\"https://hossain-khan.github.io/trmnl-next-pickup-plugin/\">https://hossain-khan.github.io/trmnl-next-pickup-plugin/</a><br>\n2. Enter your Durham Region address<br>\n3. Copy the configuration values<br>\n4. Paste them into the plugin form fields below\n<br><br>\nThat's it! Your plugin will automatically refresh with the latest pickup schedule.\n<br><br>\n<strong>Note:</strong> This plugin is designed for Durham Region, Ontario residents only.\n",
+                "github_url": "https://github.com/hossain-khan/trmnl-next-pickup-plugin",
+                "learn_more_url": "https://hossain-khan.github.io/trmnl-next-pickup-plugin/",
+                "email_address": "trmnl@hossain.dev"
+            },
+            "stats": {
+                "installs": 3,
+                "forks": 4
             }
         }
     ],
