@@ -23,7 +23,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 120,
+                "installs": 121,
                 "forks": 8
             }
         },
@@ -47,7 +47,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 85,
+                "installs": 87,
                 "forks": 2
             }
         },
@@ -55,7 +55,7 @@
             "id": 261373,
             "user_id": 29,
             "name": "Calendar XL",
-            "description": null,
+            "description": "",
             "published_at": "2026-03-21T10:14:33.762Z",
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/dktcld5l3l9w6coyt0og5vgpd7se",
             "icon_content_type": "image/png",
@@ -70,8 +70,8 @@
                 "description": "Same calendar you know, now in XL - big enough to read from your desk, the couch, or across the room. See what's happening NOW, what's up NEXT, and a peek at what's LATER. No squinting required. <br><br> \u2139\ufe0f Requires a native Google Calendar plugin connected and added in playlist for fresh data."
             },
             "stats": {
-                "installs": 44,
-                "forks": 12
+                "installs": 43,
+                "forks": 11
             }
         },
         {
@@ -94,7 +94,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 43,
+                "installs": 41,
                 "forks": 3
             }
         },
@@ -118,7 +118,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 28,
+                "installs": 27,
                 "forks": 0
             }
         },
@@ -126,7 +126,7 @@
             "id": 246906,
             "user_id": 29,
             "name": "Islamic Prayer Times",
-            "description": null,
+            "description": "",
             "published_at": "2026-02-19T14:05:29.027Z",
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/jlaow5v15p3r4qxau8iokm8iuay0",
             "icon_content_type": "image/png",
@@ -165,7 +165,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 12,
+                "installs": 13,
                 "forks": 1
             }
         },
@@ -213,7 +213,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 3,
+                "installs": 4,
                 "forks": 4
             }
         }
