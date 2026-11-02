@@ -12,6 +12,7 @@
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/k25eoz1ytss10hkogbmwn9z92mwe",
             "icon_content_type": "image/png",
             "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/1dq461pjw2hdir4t409xbgulfl9s",
+            "recipe_url": "https://trmnl.com/recipes/google-photos-227153",
             "author_bio": {
                 "keyname": "author_bio",
                 "name": "About This Plugin",
@@ -23,7 +24,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 138,
+                "installs": 142,
                 "forks": 6
             }
         },
@@ -36,6 +37,7 @@
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/lnh3i6y972h4nrrv2t7r0jcwu14n",
             "icon_content_type": "image/png",
             "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/rl6x50gfreofrbibybfvh67f53gu",
+            "recipe_url": "https://trmnl.com/recipes/element-of-the-day-226166",
             "author_bio": {
                 "keyname": "author_bio",
                 "name": "About This Plugin",
@@ -47,7 +49,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 94,
+                "installs": 93,
                 "forks": 2
             }
         },
@@ -60,6 +62,7 @@
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/dktcld5l3l9w6coyt0og5vgpd7se",
             "icon_content_type": "image/png",
             "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/r37wfnwuhar1ktlj3eh7w9uzw4fv",
+            "recipe_url": "https://trmnl.com/recipes/calendar-xl-261373",
             "author_bio": {
                 "keyname": "author_info",
                 "field_type": "author_bio",
@@ -70,8 +73,8 @@
                 "description": "Same calendar you know, now in XL - big enough to read from your desk, the couch, or across the room. See what's happening NOW, what's up NEXT, and a peek at what's LATER. No squinting required. <br><br> \u2139\ufe0f Requires a native Google Calendar plugin connected and added in playlist for fresh data."
             },
             "stats": {
-                "installs": 54,
-                "forks": 13
+                "installs": 53,
+                "forks": 12
             }
         },
         {
@@ -83,6 +86,7 @@
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/2k91pjeo87tqj1gfai95etgru67h",
             "icon_content_type": "image/png",
             "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/fqh74ne5jpwjlxgpy9auvs88uqeb",
+            "recipe_url": "https://trmnl.com/recipes/google-photos-canvas-230712",
             "author_bio": {
                 "keyname": "author_bio",
                 "name": "About This Plugin",
@@ -94,7 +98,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 42,
+                "installs": 45,
                 "forks": 4
             }
         },
@@ -107,6 +111,7 @@
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/e5566c94mqsu0jgvvx76izss4zz4",
             "icon_content_type": "image/png",
             "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/gixri251e2b3i61lgygr3w9l8vfn",
+            "recipe_url": "https://trmnl.com/recipes/kung-fu-panda-quotes-240176",
             "author_bio": {
                 "keyname": "kung_fu_panda_quotes",
                 "field_type": "author_bio",
@@ -118,7 +123,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 30,
+                "installs": 31,
                 "forks": 0
             }
         },
@@ -131,6 +136,7 @@
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/jlaow5v15p3r4qxau8iokm8iuay0",
             "icon_content_type": "image/png",
             "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/3rx487km5l8l8xsb18bppjqsk717",
+            "recipe_url": "https://trmnl.com/recipes/islamic-prayer-times-246906",
             "author_bio": {
                 "keyname": "author_bio",
                 "field_type": "author_bio",
@@ -154,6 +160,7 @@
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/fta9bofo75kbe71re9b0uu1x4rha",
             "icon_content_type": "image/png",
             "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/ktoe5qyofi7bo37ynfzag2t430fe",
+            "recipe_url": "https://trmnl.com/recipes/durham-waste-collection-178528",
             "author_bio": {
                 "keyname": "author_bio",
                 "name": "About This Plugin",
@@ -165,7 +172,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 16,
+                "installs": 15,
                 "forks": 4
             }
         },
@@ -178,6 +185,7 @@
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/8zzyovftdgvenuqqolm7ro64yy5u",
             "icon_content_type": "image/png",
             "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/ilcsv61z4lqn88k5sleu53khhozj",
+            "recipe_url": "https://trmnl.com/recipes/max-payne-quotes-224761",
             "author_bio": {
                 "keyname": "author_bio",
                 "name": "About This Plugin",
@@ -189,7 +197,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 13,
+                "installs": 12,
                 "forks": 1
             }
         },
@@ -202,6 +210,7 @@
             "icon_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/wsk5d3xr16p48f6x7x8ayz6a6cv5",
             "icon_content_type": "image/png",
             "screenshot_url": "https://trmnl-public.s3.us-east-2.amazonaws.com/f726nzmtaccf6s50989qpod57a4h",
+            "recipe_url": "https://trmnl.com/recipes/go-transit-schedule-226758",
             "author_bio": {
                 "keyname": "about",
                 "name": "About This Plugin",
