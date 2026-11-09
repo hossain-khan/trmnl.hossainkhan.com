@@ -73,8 +73,8 @@
                 "description": "Same calendar you know, now in XL - big enough to read from your desk, the couch, or across the room. See what's happening NOW, what's up NEXT, and a peek at what's LATER. No squinting required. <br><br> \u2139\ufe0f Requires a native Google Calendar plugin connected and added in playlist for fresh data."
             },
             "stats": {
-                "installs": 53,
-                "forks": 12
+                "installs": 55,
+                "forks": 11
             }
         },
         {
@@ -123,7 +123,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 31,
+                "installs": 30,
                 "forks": 0
             }
         },
@@ -147,7 +147,7 @@
                 "github_url": "https://github.com/hossain-khan/trmnl-prayer-times"
             },
             "stats": {
-                "installs": 27,
+                "installs": 28,
                 "forks": 1
             }
         },
@@ -172,7 +172,7 @@
                 "email_address": "trmnl@hossain.dev"
             },
             "stats": {
-                "installs": 15,
+                "installs": 18,
                 "forks": 4
             }
         },
